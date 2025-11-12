@@ -6,11 +6,11 @@ Python 프로젝트입니다.
 
 ```bash
 # 가상 환경 생성
-python -m venv venv
+python -m venv .venv
 
 # 가상 환경 활성화
 # macOS/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 # Windows:
 # venv\Scripts\activate
 
