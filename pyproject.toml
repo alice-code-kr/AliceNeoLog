@@ -8,7 +8,9 @@ version = "0.1.0"
 description = "AliceNeoLog 프로젝트"
 readme = "README.md"
 requires-python = ">=3.8"
-dependencies = []
+dependencies = [
+    "langchain~=1.0.5"
+]
 
 [project.optional-dependencies]
 dev = [
