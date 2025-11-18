@@ -22,7 +22,8 @@ pip install -r requirements.txt
 
 ```bash
 # 개발 의존성 설치
-pip install -e .
+pip install -e ".[dev]"
+
 ```
 
 ## 프로젝트 구조

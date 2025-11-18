@@ -9,7 +9,11 @@ description = "AliceNeoLog 프로젝트"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "langchain~=1.0.5"
+    "langchain~=1.0.5",
+    "langchain-ollama~=1.0.0",
+    "ollama~=0.6.0",
+    "requests~=2.32.5",
+    "beautifulsoup4~=4.14.2"
 ]
 
 [project.optional-dependencies]
